@@ -1,3 +1,15 @@
+# Notes
+
+Installation instructions (3.8 works too)
+```
+conda create -n DUVD python=3.8
+conda activate DUVD
+conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge
+pip3 install matplotlib opencv-python
+```
+
+# Author's
+
 Depth-aware Unpaired Video Dehaizng
 ===============================================
 This is the PyTorch implementation of the paper 'Depth-aware Unpaired Video Dehaizng'.
